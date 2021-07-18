@@ -1,6 +1,11 @@
-/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+	box-sizing: border-box;
+}
+*,
+::after,
+::before {
+	box-sizing: inherit;
+}
 
 /*
 BARVY
@@ -13,7 +18,11 @@ facebook   #3b5998
 twitter    #1da1f2
 */
 
+/*
+Pod čáru přijde tvůj kód
+-----------------------------------------------
+*/
 
 body {
-    background-color: #bdc3c7;
+	background-color: #bdc3c7;
 }
