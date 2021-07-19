@@ -90,7 +90,14 @@ a:link, a:visited {
 	width: 50%;
 }
 
-.facebook:hover, .twitter:hover, .portfolio:hover {
+.portfolio:hover {
+	background-color: #e74c3c;
+}
+.facebook:hover {
+	background-color: #3b5998;
+}
+
+.twitter:hover {
 	background-color: #1da1f2;	
 }
 
