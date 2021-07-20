@@ -83,6 +83,7 @@ a {
 .odkazy a {
 	display: block;
 	padding: 10px;
+	outline: none;
 }
 
 .portfolio,
@@ -105,15 +106,18 @@ a {
 	border-left: 0.5px solid #4d4d4d;
 }
 
-.portfolio a:hover {
+.portfolio a:hover, 
+.portfolio a:focus {
 	background-color: #e74c3c;
 }
 
-.facebook a:hover {
+.facebook a:hover,
+.facebook a:focus {
 	background-color: #3b5998;
 }
 
-.twitter a:hover {
+.twitter a:hover,
+.twitter a:focus {
 	background-color: #1da1f2;	
 }
 
